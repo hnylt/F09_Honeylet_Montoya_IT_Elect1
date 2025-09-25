@@ -8,7 +8,7 @@ export default function CounterApp() {
 
   return (
     <View style={styles.container}>
-        <Text style={styles.title}>HONEYLET MONTOYA</Text>
+        <Text style={styles.title}></Text>
       <Text style={styles.title}>Counter App</Text>
       <Text style={styles.counter}>{count}</Text>
       <Button title="Increase" onPress={() => setCount(count + 1)} />
